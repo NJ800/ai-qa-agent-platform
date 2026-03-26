@@ -31,7 +31,7 @@ The idea behind this project is to move away from static testing and instead bui
 ### Backend
 
 ```bash
-cd backend
+cd ai_qa_agent_backend
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -41,7 +41,7 @@ uvicorn main:app --reload
 ### Frontend
 
 ```bash
-cd frontend
+cd ai_qa_agent_frontend
 npm install
 npm run dev
 ```
