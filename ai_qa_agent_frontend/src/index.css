@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-dark-bg: #0f172a;
+  --color-dark-surface: #1e293b;
+  --color-dark-text: #f8fafc;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #020817;
+  }
+  .dark {
+    --background: #020817;
+    --foreground: #f8fafc;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    @apply antialiased transition-colors duration-300;
+  }
+}
