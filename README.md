@@ -84,4 +84,5 @@ npm run dev
 ## Authors
 
 * Nikhil Jain
-* Aadit Agarwal
+
+
